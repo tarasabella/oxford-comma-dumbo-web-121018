@@ -5,6 +5,8 @@ def oxford_comma(array)
   elsif array.length > 2 
     array[-1].insert(0, "and ")
   end 
+  #last element of array at its first index will be inserted "and"
+  #peanut butter, jelly, and bread
  array.join(", ")
   end 
   
